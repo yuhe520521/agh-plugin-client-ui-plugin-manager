@@ -1,0 +1,51 @@
+{
+  "name": "@yuhe520521/client-ui-plugin-manager",
+  "version": "0.1.1",
+  "description": "AGH Harness plugin manager bridge providing plugin management status and sidebar information.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=24.10"
+  },
+  "agnes": {
+    "plugins": [
+      {
+        "export": "pluginManager",
+        "apiRange": "^5.0.0",
+        "id": "ext:plugin-manager/main",
+        "inject": [
+          "tools"
+        ],
+        "capabilities": {
+          "network": []
+        },
+        "metadata": {
+          "displayName": "AGH Plugin Manager",
+          "summary": "Provides plugin detail sections and sidebar information.",
+          "description": "A bridge tool exposing plugin manager status and sidebar details for AGH Harness.",
+          "locales": {
+            "zh-CN": {
+              "displayName": "AGH 插件管理器",
+              "summary": "提供插件详情区块与侧边栏信息。",
+              "description": "桥接工具，暴露插件管理器状态与侧边栏详情。"
+            }
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "displayName": "AGH Plugin Manager",
+      "summary": "Provides plugin detail sections and sidebar information.",
+      "description": "A bridge tool exposing plugin manager status and sidebar details for AGH Harness."
+    },
+    "provides": [
+      "tool"
+    ]
+  },
+  "displayName": "AGH Plugin Manager"
+}

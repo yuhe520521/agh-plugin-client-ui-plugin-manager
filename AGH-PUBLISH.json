@@ -1,0 +1,12 @@
+{
+  "plugin_id": "agh-client-ui-plugin-manager",
+  "package": "@yuhe520521/client-ui-plugin-manager",
+  "version": "0.1.1",
+  "display_name": "AGH Plugin Manager",
+  "display_name_zh": "AGH 插件管理器",
+  "source_version": null,
+  "repository": "https://github.com/yuhe520521/agh-plugin-client-ui-plugin-manager",
+  "published_by": "AGH Hub pipeline",
+  "published_at": "2026-11-20T17:45:29.396Z",
+  "pipeline": "AGH Hub P4 → gh-publish"
+}
